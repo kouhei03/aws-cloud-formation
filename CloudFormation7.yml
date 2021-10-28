@@ -1,3 +1,16 @@
+【用途】VPCとパブリックサブネット・プライベートサブネットの作成
+※下記VPCとサブネットが作成される
+　CloudFormation-VPC　　10.0.0.0/16
+
+
+  CloudFormation-private-subnet-1a    10.0.1.0/24
+  CloudFormation-private-subnet-1c    10.0.3.0/24
+  CloudFormation-public-subnet-1a     10.0.0.0/24
+  CloudFormation-public-subnet-1c     10.0.2.0/24
+  
+ 
+---------------------------------------------
+
 AWSTemplateFormatVersion: '2010-09-09'
 Description:
   VPC & subnet create
