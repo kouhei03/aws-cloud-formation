@@ -1,3 +1,12 @@
+【用途】EC2インスタンスの作成
+※ImageIdはEC2で使用されているamiのImageIdに変更すること
+※下記項目が選択可能になる
+・EC2インスタンスのスペック
+・amiイメージを2つのリージョン（東京とシンガポール）から選択可能（各リージョンにamiイメージの配置が必要）
+・サブネットを選択できる
+・DeviceName: /dev/xvda　とストレージサイズ(8GB)を設定できる
+---------------------------------------------
+
 AWSTemplateFormatVersion: "2010-09-09"
 Description: Create EC2 Instance
 Parameters:
