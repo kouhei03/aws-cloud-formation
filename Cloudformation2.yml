@@ -1,3 +1,9 @@
+【用途】EC2インスタンスの作成
+※ImageIdはEC2で使用されているamiのImageIdに変更すること
+※EC2のスペックを選択できるようにパラメーターが追加されている
+
+---------------------------------------------
+
 AWSTemplateFormatVersion: "2010-09-09"
 Description: Create EC2 Instance
 Parameters:
@@ -23,3 +29,4 @@ Resources:
       Tags:
       - Key: Name
         Value: myInstance
+---------------------------------------------
