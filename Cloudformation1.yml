@@ -1,3 +1,7 @@
+【用途】EC2インスタンスの作成
+※ImageIdはEC2で使用されているamiのImageIdに変更すること
+
+---------------------------------------------
 AWSTemplateFormatVersion: "2010-09-09"
 Description: Create EC2 Instance
 Resources:
@@ -6,3 +10,4 @@ Resources:
     Properties: 
       ImageId: ami-0792756bc9edf3e63
       InstanceType: t2.micro
+---------------------------------------------
