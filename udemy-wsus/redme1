@@ -1,0 +1,1 @@
+wsus serverとwsus client作成yamlファイルをcloud formationで構築する際、パスワードを変更すること(ユーザーはadministrator)
